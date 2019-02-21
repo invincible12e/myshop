@@ -25,7 +25,7 @@ SECRET_KEY = ''
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['e6f08fb9.ngrok.io', '127.0.0.1']
+ALLOWED_HOSTS = []
 
 
 # Application definition
@@ -133,5 +133,5 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media/')
 CART_SESSION_ID = 'cart'
 
 # django-paypal settings
-PAYPAL_RECEIVER_EMAIL = 'invinciblephilip@yahoo.com'
+PAYPAL_RECEIVER_EMAIL = ''
 PAYPAL_TEST = True
