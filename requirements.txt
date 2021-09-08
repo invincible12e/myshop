@@ -8,7 +8,7 @@ Django==2.0
 django-paypal==0.2.5
 idna==2.8
 kombu==3.0.37
-Pillow==5.4.1
+Pillow==8.3.2
 pytz==2018.9
 requests==2.21.0
 six==1.12.0
